@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5AB7711E5804FD00C7BFB7 /* Pods_boyz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF42BF300C3B7D9CB78DC05D /* Pods_boyz.framework */; };
+		CA5AB7761E58233600C7BFB7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5AB7751E58233600C7BFB7 /* UserNotifications.framework */; };
+		CA5AB7781E58233C00C7BFB7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5AB7771E58233C00C7BFB7 /* UserNotificationsUI.framework */; };
 		CA772DB71E57F3870017EC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA772DB61E57F3870017EC0B /* AppDelegate.swift */; };
 		CA772DB91E57F3870017EC0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA772DB81E57F3870017EC0B /* ViewController.swift */; };
 		CA772DBC1E57F3870017EC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA772DBA1E57F3870017EC0B /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		CA772DC11E57F3870017EC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA772DBF1E57F3870017EC0B /* LaunchScreen.storyboard */; };
 		CA772DCC1E57F3870017EC0B /* boyzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA772DCB1E57F3870017EC0B /* boyzTests.swift */; };
 		CA772DD71E57F3870017EC0B /* boyzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA772DD61E57F3870017EC0B /* boyzUITests.swift */; };
+		CAE512CF1E57F9BC00DF52D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE512CE1E57F9BC00DF52D2 /* CoreLocation.framework */; };
+		CAFA9F7E1E58037B00FEBA12 /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA9F7D1E58037B00FEBA12 /* FacebookCore.framework */; };
+		CAFA9F801E58037F00FEBA12 /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA9F7F1E58037F00FEBA12 /* FacebookLogin.framework */; };
+		CAFA9F821E58038200FEBA12 /* FacebookShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA9F811E58038200FEBA12 /* FacebookShare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C513289C345B2CE774C8703A /* Pods-boyz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boyz.release.xcconfig"; path = "../Pods/Target Support Files/Pods-boyz/Pods-boyz.release.xcconfig"; sourceTree = "<group>"; };
+		CA5AB7741E581F7700C7BFB7 /* boyz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = boyz.entitlements; sourceTree = "<group>"; };
+		CA5AB7751E58233600C7BFB7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		CA5AB7771E58233C00C7BFB7 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		CA772DB31E57F3870017EC0B /* boyz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boyz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA772DB61E57F3870017EC0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA772DB81E57F3870017EC0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,12 @@
 		CA772DD21E57F3870017EC0B /* boyzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boyzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA772DD61E57F3870017EC0B /* boyzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boyzUITests.swift; sourceTree = "<group>"; };
 		CA772DD81E57F3870017EC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE512CE1E57F9BC00DF52D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CAFA9F7D1E58037B00FEBA12 /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = "../../../Library/Developer/Xcode/DerivedData/boyz-apjaabqwexvjougbtwhgompgrrzy/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework"; sourceTree = "<group>"; };
+		CAFA9F7F1E58037F00FEBA12 /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = "../../../Library/Developer/Xcode/DerivedData/boyz-apjaabqwexvjougbtwhgompgrrzy/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework"; sourceTree = "<group>"; };
+		CAFA9F811E58038200FEBA12 /* FacebookShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookShare.framework; path = "../../../Library/Developer/Xcode/DerivedData/boyz-apjaabqwexvjougbtwhgompgrrzy/Build/Products/Debug-iphoneos/FacebookShare/FacebookShare.framework"; sourceTree = "<group>"; };
+		CB3F33607ECD7848535DEF42 /* Pods-boyz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boyz.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-boyz/Pods-boyz.debug.xcconfig"; sourceTree = "<group>"; };
+		DF42BF300C3B7D9CB78DC05D /* Pods_boyz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_boyz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5AB7781E58233C00C7BFB7 /* UserNotificationsUI.framework in Frameworks */,
+				CA5AB7761E58233600C7BFB7 /* UserNotifications.framework in Frameworks */,
+				CAFA9F821E58038200FEBA12 /* FacebookShare.framework in Frameworks */,
+				CAFA9F801E58037F00FEBA12 /* FacebookLogin.framework in Frameworks */,
+				CAFA9F7E1E58037B00FEBA12 /* FacebookCore.framework in Frameworks */,
+				CAE512CF1E57F9BC00DF52D2 /* CoreLocation.framework in Frameworks */,
+				CA5AB7711E5804FD00C7BFB7 /* Pods_boyz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +98,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07023CDBB1A0627D821D6BE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB3F33607ECD7848535DEF42 /* Pods-boyz.debug.xcconfig */,
+				C513289C345B2CE774C8703A /* Pods-boyz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F79DDCE6425430E7C283E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AB7771E58233C00C7BFB7 /* UserNotificationsUI.framework */,
+				CA5AB7751E58233600C7BFB7 /* UserNotifications.framework */,
+				CAFA9F811E58038200FEBA12 /* FacebookShare.framework */,
+				CAFA9F7F1E58037F00FEBA12 /* FacebookLogin.framework */,
+				CAFA9F7D1E58037B00FEBA12 /* FacebookCore.framework */,
+				CAE512CE1E57F9BC00DF52D2 /* CoreLocation.framework */,
+				DF42BF300C3B7D9CB78DC05D /* Pods_boyz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA772DAA1E57F3870017EC0B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +128,8 @@
 				CA772DCA1E57F3870017EC0B /* boyzTests */,
 				CA772DD51E57F3870017EC0B /* boyzUITests */,
 				CA772DB41E57F3870017EC0B /* Products */,
+				07023CDBB1A0627D821D6BE9 /* Pods */,
+				7F79DDCE6425430E7C283E29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +146,7 @@
 		CA772DB51E57F3870017EC0B /* boyz */ = {
 			isa = PBXGroup;
 			children = (
+				CA5AB7741E581F7700C7BFB7 /* boyz.entitlements */,
 				CA772DB61E57F3870017EC0B /* AppDelegate.swift */,
 				CA772DB81E57F3870017EC0B /* ViewController.swift */,
 				CA772DBA1E57F3870017EC0B /* Main.storyboard */,
@@ -132,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA772DDB1E57F3870017EC0B /* Build configuration list for PBXNativeTarget "boyz" */;
 			buildPhases = (
+				E26C74CD04909A67023DCBC4 /* [CP] Check Pods Manifest.lock */,
 				CA772DAF1E57F3870017EC0B /* Sources */,
 				CA772DB01E57F3870017EC0B /* Frameworks */,
 				CA772DB11E57F3870017EC0B /* Resources */,
+				1903B46944125EDF2E38625D /* [CP] Embed Pods Frameworks */,
+				A9A024084D81B3C224874CE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,8 +246,13 @@
 				TargetAttributes = {
 					CA772DB21E57F3870017EC0B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = DTD828FQW2;
+						DevelopmentTeam = 72H7NZKH7W;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					CA772DC61E57F3870017EC0B = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -256,6 +314,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1903B46944125EDF2E38625D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-boyz/Pods-boyz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A024084D81B3C224874CE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-boyz/Pods-boyz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26C74CD04909A67023DCBC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA772DAF1E57F3870017EC0B /* Sources */ = {
@@ -413,12 +519,14 @@
 		};
 		CA772DDC1E57F3870017EC0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3F33607ECD7848535DEF42 /* Pods-boyz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DTD828FQW2;
+				CODE_SIGN_ENTITLEMENTS = boyz/boyz.entitlements;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
 				INFOPLIST_FILE = boyz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.boyz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthurdearaujo.boyz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,12 +534,14 @@
 		};
 		CA772DDD1E57F3870017EC0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C513289C345B2CE774C8703A /* Pods-boyz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DTD828FQW2;
+				CODE_SIGN_ENTITLEMENTS = boyz/boyz.entitlements;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
 				INFOPLIST_FILE = boyz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.boyz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthurdearaujo.boyz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -514,6 +624,7 @@
 				CA772DDD1E57F3870017EC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA772DDE1E57F3870017EC0B /* Build configuration list for PBXNativeTarget "boyzTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +633,7 @@
 				CA772DE01E57F3870017EC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA772DE11E57F3870017EC0B /* Build configuration list for PBXNativeTarget "boyzUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +642,7 @@
 				CA772DE31E57F3870017EC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
